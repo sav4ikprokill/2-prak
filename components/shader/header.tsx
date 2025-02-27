@@ -15,7 +15,7 @@ export const Header: React.FC<Props>=({ className }) => {
             <Container className='flex items-center justify-between py-8'>
                 {/* левый блок */}
                 <div className='flex items-center gap-4'>
-                    <Image src="/logo.png" width={35} height={35}/>
+                    <Image src="/logo.png" width={35} height={35} alt={''}/>
                     <div>
                         <h1 className='text-2xl font-black uppercase'>NEXT PIZZA</h1>
                         <p>вкусней  уже некуда</p>
@@ -24,7 +24,7 @@ export const Header: React.FC<Props>=({ className }) => {
                 </div>
                 {/* правый блок */}
                 <div className='flex items-center gap-4'>
-                    <Button variant="outline"><User size={16} />dfghjk</Button>
+                    <Button variant="outline"><User size={16} />Войти</Button>
                     <Button variant="outline"><User size={16} />dfghjk</Button>
                 </div>
             </Container>
