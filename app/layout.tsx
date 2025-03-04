@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google"; 643
+import { Nunito } from "next/font/google";
 import "./globals.css";
-import { Main } from "next/document";
 import { Header } from "@/components/shader/header";
 
-const nunito =Nunito({
-   subsets: ["cyrillic"],
-   variable: '--font-nunito',
-   weight: ['400', '500', '600', '700', '800', '900'],
+const nunito = Nunito({
+  variable: "--font-geist-sans",
+  subsets: ["cyrillic"],
+  weight: ['400', '500', '600', '700', '800', '900']
 });
 
 export const metadata: Metadata = {
@@ -22,8 +21,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={nunito.className}>
-        <main className="min-h-screen">
-          <Header/>
+        <main className="nin-h-screen">
+          <Header />
           {children}
         </main>
       </body>

@@ -1,9 +1,12 @@
+import { Container } from "@/components/shader/container";
+import { Title } from "@/components/shader/title";
 
 
 export default function Home() {
   return (
-    <h1>Главная</h1>
-  );
-}
-
+    <div>
+        <Container><Title text="Все пиццы" className="font-extrabold" size="xl"/></Container>
+    </div>
+    );
+};
  
