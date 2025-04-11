@@ -1,11 +1,13 @@
 import { cn } from "@/lib/utils";
 
+
 interface Props {
     className?: string;
 }
 
 
 const cats = ['Пиццы', 'Комбо',  'Закуски', 'Коктейли',  'Кофе',  'Напитики',  'Десерты'];
+
 
 
 const activeIndex = 0;

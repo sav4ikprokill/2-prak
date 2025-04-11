@@ -18,7 +18,7 @@ export const ProductCard: React.FC<Props> = ({id, name, price, imageUrl, classNa
             <div className="flex justify-center p-6 bg-secondary rounded-lg h-[260px]">
                 <img className="w-[215px] h-[215px]" src={imageUrl} alt={name}/>
             </div>
-            <Title text={name} size="sm" className="mb-1 mt-3 font-bold"/>\
+            <Title text={name} size="sm" className="mb-1 mt-3 font-bold"/>
             <p className="text-sm text-gray-400">
                 Цыпленок, моццарелла, сыр чеддер и пармезан, сырный соус, томаты, соус альфредо, чеснок
             </p>
@@ -33,5 +33,6 @@ export const ProductCard: React.FC<Props> = ({id, name, price, imageUrl, classNa
             </div>
             </Link>
         </div>
+        
     );
 }
